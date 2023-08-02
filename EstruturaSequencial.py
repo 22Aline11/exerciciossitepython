@@ -26,4 +26,15 @@ centimetros = 100
 conversao = metro * centimetros
 print( metro, "metros são", conversao, "centimetros.")
 
-6. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área. 
+#6. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área. 
+raio = int(input("Coloque o raio do circulo: "))
+area = (raio * raio) * 3.14
+print(area)
+
+#7. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário. 
+lado = int(input("Coloque o valor de um lado do quadrado: "))
+area = lado * lado
+dobro_area= area * 2 
+print("A área do quadrado é:", area, ". O dobro da área é: ", dobro_area)
+
+#
