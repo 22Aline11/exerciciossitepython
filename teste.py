@@ -1,5 +1,5 @@
-#7. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário. 
-lado = int(input("Coloque o valor de um lado do quadrado: "))
-area = lado * lado
-dobro_area= area * 2 
-print("A área do quadrado é:", area, ". O dobro da área é: ", dobro_area)
+# 10.Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit. 
+temp_c = float(input("Coloque a temperatura em Celsius: "))
+temp_f = (temp_c * 9 / 5) + 32
+
+print(" A temperatura em Fahrenheit é: {:.1f}".format(temp_f))
